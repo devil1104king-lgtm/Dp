@@ -1,12 +1,13 @@
 telebot==0.0.5
 requests==2.31.0
-torch==2.0.1+cpu
-torchvision==0.15.2+cpu
-torchaudio==2.0.2
+# Latest Torch for CPU (Compatible with Python 3.12+)
+torch --index-url https://download.pytorch.org/whl/cpu
+torchvision --index-url https://download.pytorch.org/whl/cpu
+torchaudio --index-url https://download.pytorch.org/whl/cpu
+
 Pillow==10.0.0
-numpy==1.24.3
-diffusers==0.24.0
-transformers==4.35.0
-accelerate==0.25.0
-xformers==0.0.23.1
-opencv-python-headless==4.8.1.78
+numpy==1.26.4
+diffusers==0.27.0
+transformers==4.38.0
+accelerate==0.28.0
+opencv-python-headless==4.9.0.80
